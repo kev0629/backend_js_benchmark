@@ -1,0 +1,19 @@
+{
+  "name": "bff_study",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "bench:express": "autocannon http://localhost:3001",
+    "bench:fastify": "autocannon http://localhost:3002"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "fastify": "^5.2.2"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0"
+  }
+}
