@@ -20,11 +20,6 @@ mono-express-fastify/
 └── README.md
 ```
 
-## Requirements
-
-- Node.js >= 18
-- npm >= 7
-
 ## Installation
 
 From the root of the project:
@@ -47,4 +42,3 @@ npm install
 cd apps/express-app
 npm run dev
 ```
-# backend_js_benchmark
