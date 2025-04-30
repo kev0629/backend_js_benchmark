@@ -42,3 +42,33 @@ npm install
 cd apps/express-app
 npm run dev
 ```
+Accessible at: http://localhost:3001
+
+## Fastify
+
+```
+cd apps/fastify-app
+npm run dev
+```
+Accessible at: http://localhost:3002
+
+Benchmarking
+
+This project uses autocannon to benchmark HTTP performance.
+
+Run the benchmarks
+
+Make sure both servers are running in separate terminals.
+
+Then from the root:
+
+```bash
+npm run bench:express
+```
+
+
+```bash
+npm run bench:fastify
+```
+
+
